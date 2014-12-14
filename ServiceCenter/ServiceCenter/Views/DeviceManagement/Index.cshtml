@@ -1,0 +1,139 @@
+﻿@using ServiceCenter.Models;
+<script type="text/javascript">
+@Html.Raw(LangHelper.WhichLang());
+@Html.Raw(Html.LangOutJsVar("Default_JS_defaultTabTitle"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_Title"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_AskForExit"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_NoDataForPrint"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_NoDataForExcel"));
+@Html.Raw(Html.LangOutJsVar("Public_Print_Title"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_Save"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_Close"));
+
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_Html_btnQuery"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_Html_btnAdd"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_Html_btnUpdate"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_Html_btnDelete"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_Html_btnSeleAll"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_Html_btnInverseSele"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_Html_btnPrint"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_Html_btnExcel"));
+
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_Field1"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_Field2"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_Field3"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_Field4"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_Field5"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_Field6"));
+
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_ErrorTip1"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_ErrorTip2"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_ErrorTip3"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_ErrorTip4"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_ErrorTip5"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_ErrorTip6"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_AddDevice"));
+@Html.Raw(Html.LangOutJsVar("DeviceManagement_JS_UpdateDevice"));
+</script>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Html.GetLangbyKey("DeviceManagement_Html_Title")</title>
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/jquery.easyui.min.js")" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/black/easyui.css")" rel="stylesheet"
+        title="black" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/bootstrap/easyui.css")" rel="stylesheet"
+        title="bootstrap"/>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/default/easyui.css")" rel="stylesheet"
+        title="default"/>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/gray/easyui.css")" rel="stylesheet"
+        title="gray"/>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/metro/easyui.css")" rel="stylesheet"
+        title="metro"/>
+    <link href="@Url.Content("~/JqueryUI/themes/icon.css")"  rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Highcharts/js/highcharts.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Highcharts/js/modules/exporting.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/DeviceManagement.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/easyui-lang-zh_CN.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/My97DatePicker/WdatePicker.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/Common/Common.js")" type="text/javascript"></script>
+</head>
+<body>
+    <div id="toolBar" style="padding: 2px; height: auto">
+        <a href="#" class="easyui-linkbutton" id="btnQuery" iconcls="icon-search" plain="true">
+            @Html.GetLangbyKey("DeviceManagement_Html_btnQuery")</a>|<a href="#" class="easyui-linkbutton" id="btnAdd" iconcls="icon-add" plain="true">@Html.GetLangbyKey("DeviceManagement_Html_btnAdd")</a>|<a
+                href="#" class="easyui-linkbutton" id="btnUpdate" iconcls="icon-edit" plain="true">@Html.GetLangbyKey("DeviceManagement_Html_btnUpdate")</a>|<a
+                    href="#" class="easyui-linkbutton" id="btnDelete" iconcls="icon-remove" plain="true">@Html.GetLangbyKey("DeviceManagement_Html_btnDelete")</a>|<a
+                        href="#" class="easyui-linkbutton" id="btnSeleAll" iconcls="icon-seleall" plain="true">@Html.GetLangbyKey("DeviceManagement_Html_btnSeleAll")</a>|<a
+                            href="#" class="easyui-linkbutton" id="btnInverseSele" iconcls="icon-inversesele"
+                            plain="true">@Html.GetLangbyKey("DeviceManagement_Html_btnInverseSele")</a>|<a href="javascript:void(0)" plain="true" id="menuButtonReport"
+                                class="easyui-menubutton" data-options="menu:'#menuButtons',iconCls:'icon-report'">@Html.GetLangbyKey("DeviceManagement_Html_menuButtonReport")</a>
+        <div id="menuButtons" style="width: 150px;">
+            <div id="btnPrint" name="btnPrint" data-options="iconCls:'icon-print'">
+                @Html.GetLangbyKey("DeviceManagement_Html_btnPrint")</div>
+            <div id="btnExcel" name="btnExcel" data-options="iconCls:'icon-excel'">
+                @Html.GetLangbyKey("DeviceManagement_Html_btnExcel")</div>
+        </div>
+    </div>
+    <div id="DG_NVR" fit="true">
+    </div>
+    <div id="dlg_Create_NVR" data-options="iconCls:'icon-save'" style="padding: 5px;">
+        <table>
+            <tr>
+                <td>
+                    @Html.GetLangbyKey("DeviceManagement_Html_txtNVRName")
+                </td>
+                <td>
+                    <input type="text" id="txtNVRName" name="txtDeviceId" />
+                    <input type="hidden" id="hd_NVRId" name="hd_NVRId" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.GetLangbyKey("DeviceManagement_Html_txtNVRIP")
+                </td>
+                <td>
+                    <input type="text" id="txtNVRIP" name="txtNVRIP" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.GetLangbyKey("DeviceManagement_Html_txtNVRDHLIP")
+                </td>
+                <td>
+                    <input type="text" id="txtNVRDHLIP" name="txtNVRDHLIP" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.GetLangbyKey("DeviceManagement_Html_txtNVRPort")
+                </td>
+                <td>
+                    <input type="text" id="txtNVRPort" name="txtNVRPort" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.GetLangbyKey("DeviceManagement_Html_txtUserName")
+                </td>
+                <td>
+                    <input type="text" id="txtUserName" name="txtUserName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.GetLangbyKey("DeviceManagement_Html_txtUserPwd")
+                </td>
+                <td>
+                    <input type="text" id="txtUserPwd" name="txtUserPwd" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

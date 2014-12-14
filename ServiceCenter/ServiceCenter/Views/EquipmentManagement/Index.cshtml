@@ -1,0 +1,114 @@
+﻿@using ServiceCenter.Models;
+<script type="text/javascript">
+@Html.Raw(LangHelper.WhichLang());
+@Html.Raw(Html.LangOutJsVar("Default_JS_defaultTabTitle"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_Title"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_AskForExit"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_NoDataForPrint"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_NoDataForExcel"));
+@Html.Raw(Html.LangOutJsVar("Public_Print_Title"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_Save"));
+@Html.Raw(Html.LangOutJsVar("Public_Dialog_Close"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Field1"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Field2"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Field3"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_ErrorTip1"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_ErrorTip2"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_ErrorTip3"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_ErrorTip4"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_ErrorTip5"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_ErrorTip6"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_DialogAdd"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_DialogUpdate"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Menu1"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Menu2"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Menu3"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Menu4"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Menu5"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Menu6"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Menu7"));
+@Html.Raw(Html.LangOutJsVar("EquipmentManagement_JS_Menu8"));
+</script>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Html.GetLangbyKey("EquipmentManagement_Html_Title")</title>
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/jquery.easyui.min.js")" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/black/easyui.css")" rel="stylesheet"
+        title="black" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/bootstrap/easyui.css")" rel="stylesheet"
+        title="bootstrap"/>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/default/easyui.css")" rel="stylesheet"
+        title="default"/>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/gray/easyui.css")" rel="stylesheet"
+        title="gray"/>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/metro/easyui.css")" rel="stylesheet"
+        title="metro"/>
+    <link href="@Url.Content("~/JqueryUI/themes/icon.css")"  rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Highcharts/js/highcharts.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Highcharts/js/modules/exporting.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/EquipmentManagement.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/easyui-lang-zh_CN.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/My97DatePicker/WdatePicker.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/Common/Common.js")" type="text/javascript"></script>
+</head>
+<body>
+    <div id="toolBar" style="padding: 2px; height: auto">
+        <a href="#" class="easyui-linkbutton" id="btnQuery" iconcls="icon-search" plain="true">
+            @Html.GetLangbyKey("EquipmentManagement_Html_btnQuery")</a>|<a href="#" class="easyui-linkbutton"
+                id="btnAdd" iconcls="icon-add" plain="true">@Html.GetLangbyKey("EquipmentManagement_Html_btnAdd")</a>|<a
+                    href="#" class="easyui-linkbutton" id="btnUpdate" iconcls="icon-edit" plain="true">@Html.GetLangbyKey("EquipmentManagement_Html_btnUpdate")</a>|<a
+                        href="#" class="easyui-linkbutton" id="btnDelete" iconcls="icon-remove" plain="true">@Html.GetLangbyKey("EquipmentManagement_Html_btnDelete")</a>|<a
+                            href="#" class="easyui-linkbutton" id="btnSeleAll" iconcls="icon-seleall" plain="true">@Html.GetLangbyKey("EquipmentManagement_Html_btnSeleAll")</a>|<a
+                                href="#" class="easyui-linkbutton" id="btnInverseSele" iconcls="icon-inversesele"
+                                plain="true">@Html.GetLangbyKey("EquipmentManagement_Html_btnInverseSele")</a>|<a
+                                    href="javascript:void(0)" plain="true" id="menuButtonReport" class="easyui-menubutton"
+                                    data-options="menu:'#menuButtons',iconCls:'icon-report'">@Html.GetLangbyKey("EquipmentManagement_Html_menuButtonReport")</a>
+        <div id="menuButtons" style="width: 150px;">
+            <div id="btnPrint" name="btnPrint" data-options="iconCls:'icon-print'">
+                @Html.GetLangbyKey("EquipmentManagement_Html_btnPrint")</div>
+            <div id="btnExcel" name="btnExcel" data-options="iconCls:'icon-excel'">
+                @Html.GetLangbyKey("EquipmentManagement_Html_btnExcel")</div>
+        </div>
+        <br />
+        @Html.GetLangbyKey("EquipmentManagement_Html_Label1")<input type="text" id="txtDeviceName_Q"
+            name="txtDeviceName_Q" />
+    </div>
+    <div id="DG_Equipment" fit="true">
+    </div>
+    <div id="dlg_Create_Equipment" data-options="iconCls:'icon-save'" style="padding: 5px;">
+        <table>
+            <tr>
+                <td>
+                    @Html.GetLangbyKey("EquipmentManagement_Html_Label2")
+                </td>
+                <td>
+                    <input type="text" id="txtDeviceId" name="txtDeviceId" />
+                    <input type="hidden" id="hd_ID" name="hd_ID" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.GetLangbyKey("EquipmentManagement_Html_Label3")
+                </td>
+                <td>
+                    <input type="text" id="txtDeviceName" name="txtDeviceName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.GetLangbyKey("EquipmentManagement_Html_Label4")
+                </td>
+                <td>
+                    <input type="text" id="ddlGroupId" name="ddlGroupId" style="width: 300px" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

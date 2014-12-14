@@ -1,0 +1,48 @@
+﻿@using ServiceCenter.Models;
+<script type="text/javascript">
+@Html.Raw(LangHelper.WhichLang());
+
+@Html.Raw(Html.LangOutJsVar("MapReal_JS_Field1"));
+@Html.Raw(Html.LangOutJsVar("MapReal_JS_Field2"));
+</script>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Html.GetLangbyKey("MapReal_Html_Title")</title>
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/jquery.easyui.min.js")" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/black/easyui.css")" rel="stylesheet"
+        title="black" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/bootstrap/easyui.css")" rel="stylesheet"
+        title="bootstrap"/>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/default/easyui.css")" rel="stylesheet"
+        title="default"/>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/gray/easyui.css")" rel="stylesheet"
+        title="gray"/>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/JqueryUI/themes/metro/easyui.css")" rel="stylesheet"
+        title="metro"/>
+    <link href="@Url.Content("~/JqueryUI/themes/icon.css")"  rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Highcharts/js/highcharts.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Highcharts/js/modules/exporting.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/MapReal.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/easyui-lang-zh_CN.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/My97DatePicker/WdatePicker.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/Common/Common.js")" type="text/javascript"></script>
+    <link href="@Url.Content("~/Css/MapPot.css")"   type="text/css" />
+</head>
+<body>
+   <div id="layout_Main" class="easyui-layout" data-options="fit:true,border:false">
+        <div region="north" split="false" style="height: 35px; padding: 2px" border="true">
+            @Html.GetLangbyKey("MapReal_Html_Label1")：<input type="text" id="ddlMapSele" name="ddlMapSele" style="width: 400px" /></div>
+        <div region="center" border="false" split="true">
+            <iframe id="iframeMapPotView" style="width: 99%; height: 99%; margin: 0px"></iframe>
+        </div>
+    </div>
+</body>
+</html>
