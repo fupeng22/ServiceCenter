@@ -1,0 +1,60 @@
+﻿.iconA
+{
+	background: transparent url('../images/map/imgs/curMapPot.png') repeat scroll 0px -230px;
+}
+.iconB
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll -24px -230px transparent;
+}
+.iconC
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll -48px -230px transparent;
+}
+.iconD
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll -72px -230px transparent;
+}
+.iconE
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll -96px -230px transparent;
+}
+.iconF
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll -120px -230px transparent;
+}
+.iconG
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll -144px -230px transparent;
+}
+.iconH
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll -168px -230px transparent;
+}
+.iconI
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll -192px -230px transparent;
+}
+.iconJ
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll -216px -230px transparent;
+}
+.iconBlank
+{
+	background: url("../../images/map/imgs/mapPot.png") repeat scroll 0px 34px transparent;
+}
+.mp
+{
+	width: 19px;
+	height: 29px;
+	cursor: pointer;
+}
+.iconMpCur
+{
+	background: url("../../images/map/imgs/curMapPot.png") repeat scroll 0px 177px transparent;
+}
+.mpCur
+{
+	width: 22px;
+	height: 36px;
+	cursor: pointer;
+}

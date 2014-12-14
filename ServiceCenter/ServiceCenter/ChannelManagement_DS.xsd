@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ChannelManagement_DS" targetNamespace="http://tempuri.org/ChannelManagement_DS.xsd" xmlns:mstns="http://tempuri.org/ChannelManagement_DS.xsd" xmlns="http://tempuri.org/ChannelManagement_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ChannelManagement_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ChannelManagement_DS" msprop:Generator_UserDSName="ChannelManagement_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="XRAY_NVR_ID" msprop:Generator_ColumnVarNameInTable="columnXRAY_NVR_ID" msprop:Generator_ColumnPropNameInRow="XRAY_NVR_ID" msprop:Generator_ColumnPropNameInTable="XRAY_NVR_IDColumn" msprop:Generator_UserColumnName="XRAY_NVR_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="XRAY_TYPE" msprop:Generator_ColumnVarNameInTable="columnXRAY_TYPE" msprop:Generator_ColumnPropNameInRow="XRAY_TYPE" msprop:Generator_ColumnPropNameInTable="XRAY_TYPEColumn" msprop:Generator_UserColumnName="XRAY_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="XRAY_NAME" msprop:Generator_ColumnVarNameInTable="columnXRAY_NAME" msprop:Generator_ColumnPropNameInRow="XRAY_NAME" msprop:Generator_ColumnPropNameInTable="XRAY_NAMEColumn" msprop:Generator_UserColumnName="XRAY_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="NVR_NAME" msprop:Generator_ColumnVarNameInTable="columnNVR_NAME" msprop:Generator_ColumnPropNameInRow="NVR_NAME" msprop:Generator_ColumnPropNameInTable="NVR_NAMEColumn" msprop:Generator_UserColumnName="NVR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="XRAY_TYPE_Desc" msprop:Generator_ColumnVarNameInTable="columnXRAY_TYPE_Desc" msprop:Generator_ColumnPropNameInRow="XRAY_TYPE_Desc" msprop:Generator_ColumnPropNameInTable="XRAY_TYPE_DescColumn" msprop:Generator_UserColumnName="XRAY_TYPE_Desc" type="xs:string" minOccurs="0" />
+              <xs:element name="BEGIN_X" msprop:Generator_ColumnVarNameInTable="columnBEGIN_X" msprop:Generator_ColumnPropNameInRow="BEGIN_X" msprop:Generator_ColumnPropNameInTable="BEGIN_XColumn" msprop:Generator_UserColumnName="BEGIN_X" type="xs:string" minOccurs="0" />
+              <xs:element name="BEGIN_Y" msprop:Generator_ColumnVarNameInTable="columnBEGIN_Y" msprop:Generator_ColumnPropNameInRow="BEGIN_Y" msprop:Generator_ColumnPropNameInTable="BEGIN_YColumn" msprop:Generator_UserColumnName="BEGIN_Y" type="xs:string" minOccurs="0" />
+              <xs:element name="END_Y" msprop:Generator_ColumnVarNameInTable="columnEND_Y" msprop:Generator_ColumnPropNameInRow="END_Y" msprop:Generator_ColumnPropNameInTable="END_YColumn" msprop:Generator_UserColumnName="END_Y" type="xs:string" minOccurs="0" />
+              <xs:element name="RUN_DIRECTOR" msprop:Generator_ColumnVarNameInTable="columnRUN_DIRECTOR" msprop:Generator_ColumnPropNameInRow="RUN_DIRECTOR" msprop:Generator_ColumnPropNameInTable="RUN_DIRECTORColumn" msprop:Generator_UserColumnName="RUN_DIRECTOR" type="xs:string" minOccurs="0" />
+              <xs:element name="USE_FLAG" msprop:Generator_ColumnVarNameInTable="columnUSE_FLAG" msprop:Generator_ColumnPropNameInRow="USE_FLAG" msprop:Generator_ColumnPropNameInTable="USE_FLAGColumn" msprop:Generator_UserColumnName="USE_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="EVERY_INTERNAL" msprop:Generator_ColumnVarNameInTable="columnEVERY_INTERNAL" msprop:Generator_ColumnPropNameInRow="EVERY_INTERNAL" msprop:Generator_ColumnPropNameInTable="EVERY_INTERNALColumn" msprop:Generator_UserColumnName="EVERY_INTERNAL" type="xs:string" minOccurs="0" />
+              <xs:element name="RUN_DIRECTOR_Desc" msprop:Generator_ColumnVarNameInTable="columnRUN_DIRECTOR_Desc" msprop:Generator_ColumnPropNameInRow="RUN_DIRECTOR_Desc" msprop:Generator_ColumnPropNameInTable="RUN_DIRECTOR_DescColumn" msprop:Generator_UserColumnName="RUN_DIRECTOR_Desc" type="xs:string" minOccurs="0" />
+              <xs:element name="USE_FLAG_Desc" msprop:Generator_ColumnVarNameInTable="columnUSE_FLAG_Desc" msprop:Generator_ColumnPropNameInRow="USE_FLAG_Desc" msprop:Generator_ColumnPropNameInTable="USE_FLAG_DescColumn" msprop:Generator_UserColumnName="USE_FLAG_Desc" type="xs:string" minOccurs="0" />
+              <xs:element name="LastCheckTime" msprop:Generator_ColumnVarNameInTable="columnLastCheckTime" msprop:Generator_ColumnPropNameInRow="LastCheckTime" msprop:Generator_ColumnPropNameInTable="LastCheckTimeColumn" msprop:Generator_UserColumnName="LastCheckTime" type="xs:string" minOccurs="0" />
+              <xs:element name="BeginCheckTime" msprop:Generator_ColumnVarNameInTable="columnBeginCheckTime" msprop:Generator_ColumnPropNameInRow="BeginCheckTime" msprop:Generator_ColumnPropNameInTable="BeginCheckTimeColumn" msprop:Generator_UserColumnName="BeginCheckTime" type="xs:string" minOccurs="0" />
+              <xs:element name="XRAY_CHANNEL_NO" msprop:Generator_ColumnVarNameInTable="columnXRAY_CHANNEL_NO" msprop:Generator_ColumnPropNameInRow="XRAY_CHANNEL_NO" msprop:Generator_ColumnPropNameInTable="XRAY_CHANNEL_NOColumn" msprop:Generator_UserColumnName="XRAY_CHANNEL_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="CRITICAL_VALUE" msprop:Generator_ColumnVarNameInTable="columnCRITICAL_VALUE" msprop:Generator_ColumnPropNameInRow="CRITICAL_VALUE" msprop:Generator_ColumnPropNameInTable="CRITICAL_VALUEColumn" msprop:Generator_UserColumnName="CRITICAL_VALUE" type="xs:string" minOccurs="0" />
+              <xs:element name="XRAY_ID" msprop:Generator_ColumnVarNameInTable="columnXRAY_ID" msprop:Generator_ColumnPropNameInRow="XRAY_ID" msprop:Generator_ColumnPropNameInTable="XRAY_IDColumn" msprop:Generator_UserColumnName="XRAY_ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

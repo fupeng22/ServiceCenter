@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DeviceManagement_DS" targetNamespace="http://tempuri.org/DeviceManagement_DS.xsd" xmlns:mstns="http://tempuri.org/DeviceManagement_DS.xsd" xmlns="http://tempuri.org/DeviceManagement_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DeviceManagement_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DeviceManagement_DS" msprop:Generator_UserDSName="DeviceManagement_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NVR_NAME" msprop:Generator_ColumnVarNameInTable="columnNVR_NAME" msprop:Generator_ColumnPropNameInRow="NVR_NAME" msprop:Generator_ColumnPropNameInTable="NVR_NAMEColumn" msprop:Generator_UserColumnName="NVR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="NVR_IP" msprop:Generator_ColumnVarNameInTable="columnNVR_IP" msprop:Generator_ColumnPropNameInRow="NVR_IP" msprop:Generator_ColumnPropNameInTable="NVR_IPColumn" msprop:Generator_UserColumnName="NVR_IP" type="xs:string" minOccurs="0" />
+              <xs:element name="NVR_PORT" msprop:Generator_ColumnVarNameInTable="columnNVR_PORT" msprop:Generator_ColumnPropNameInRow="NVR_PORT" msprop:Generator_ColumnPropNameInTable="NVR_PORTColumn" msprop:Generator_UserColumnName="NVR_PORT" type="xs:string" minOccurs="0" />
+              <xs:element name="NVR_USER" msprop:Generator_ColumnVarNameInTable="columnNVR_USER" msprop:Generator_ColumnPropNameInRow="NVR_USER" msprop:Generator_ColumnPropNameInTable="NVR_USERColumn" msprop:Generator_UserColumnName="NVR_USER" type="xs:string" minOccurs="0" />
+              <xs:element name="NVR_PW" msprop:Generator_ColumnVarNameInTable="columnNVR_PW" msprop:Generator_ColumnPropNameInRow="NVR_PW" msprop:Generator_ColumnPropNameInTable="NVR_PWColumn" msprop:Generator_UserColumnName="NVR_PW" type="xs:string" minOccurs="0" />
+              <xs:element name="NVR_BAK" msprop:Generator_ColumnVarNameInTable="columnNVR_BAK" msprop:Generator_ColumnPropNameInRow="NVR_BAK" msprop:Generator_ColumnPropNameInTable="NVR_BAKColumn" msprop:Generator_UserColumnName="NVR_BAK" type="xs:string" minOccurs="0" />
+              <xs:element name="NVR_ID" msprop:Generator_ColumnVarNameInTable="columnNVR_ID" msprop:Generator_ColumnPropNameInRow="NVR_ID" msprop:Generator_ColumnPropNameInTable="NVR_IDColumn" msprop:Generator_UserColumnName="NVR_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="NVR_DHL_IP" msprop:Generator_ColumnVarNameInTable="columnNVR_DHL_IP" msprop:Generator_ColumnPropNameInRow="NVR_DHL_IP" msprop:Generator_ColumnPropNameInTable="NVR_DHL_IPColumn" msprop:Generator_UserColumnName="NVR_DHL_IP" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
