@@ -1,0 +1,1605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Default_Control_ConnType1" xml:space="preserve">
+    <value>directly 232</value>
+  </data>
+  <data name="Default_Control_ConnType2" xml:space="preserve">
+    <value>Turn 232 into tcp/ip</value>
+  </data>
+  <data name="Default_Control_ConnType3" xml:space="preserve">
+    <value>directly 485</value>
+  </data>
+  <data name="Default_Control_ConnType4" xml:space="preserve">
+    <value>Turn 485 into tcp/ip</value>
+  </data>
+  <data name="Default_Control_ConnType5" xml:space="preserve">
+    <value>Directly from equipment</value>
+  </data>
+  <data name="Default_Control_ExceptionType1" xml:space="preserve">
+    <value>No exception</value>
+  </data>
+  <data name="Default_Control_ExceptionType2" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="Default_Control_FeeType1" xml:space="preserve">
+    <value>Charges by actual weight </value>
+  </data>
+  <data name="Default_Control_FeeType2" xml:space="preserve">
+    <value>Charges by volume-weight</value>
+  </data>
+  <data name="Default_Html_btnEquipmentManagement" xml:space="preserve">
+    <value>Equipment information management</value>
+  </data>
+  <data name="Default_Html_btnGroupManagement" xml:space="preserve">
+    <value>Department management</value>
+  </data>
+  <data name="Default_Html_btnQueryExceptionWayBill" xml:space="preserve">
+    <value>Exception data query</value>
+  </data>
+  <data name="Default_Html_btnStatisticByDay_WayBill" xml:space="preserve">
+    <value>Statistic by day</value>
+  </data>
+  <data name="Default_Html_btnStatisticByHour_WayBill" xml:space="preserve">
+    <value>Statistic by hour</value>
+  </data>
+  <data name="Default_Html_btnStatisticByMonth_WayBill" xml:space="preserve">
+    <value>Statistic by month</value>
+  </data>
+  <data name="Default_Html_btnStatisticFeeByMonth" xml:space="preserve">
+    <value>Column of Monthly statistics</value>
+  </data>
+  <data name="Default_Html_btnStatisticFeeByMonth_Pie" xml:space="preserve">
+    <value>Pie of Monthly statistics</value>
+  </data>
+  <data name="Default_Html_btnUserManagement" xml:space="preserve">
+    <value>User information management</value>
+  </data>
+  <data name="Default_Html_CurrentUser" xml:space="preserve">
+    <value>Current user</value>
+  </data>
+  <data name="Default_Html_Exit" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Default_Html_Label1" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title1" xml:space="preserve">
+    <value>Cargo data statistic</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title2" xml:space="preserve">
+    <value>System back-stage management</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title3" xml:space="preserve">
+    <value>Charging information statistics</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title4" xml:space="preserve">
+    <value>Exception data query</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title5" xml:space="preserve">
+    <value>User information management</value>
+  </data>
+  <data name="Default_Html_mm_exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Default_Html_mm_tabclose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Default_Html_mm_tabcloseall" xml:space="preserve">
+    <value>Close all</value>
+  </data>
+  <data name="Default_Html_mm_tabcloseleft" xml:space="preserve">
+    <value>Left side of current page will close</value>
+  </data>
+  <data name="Default_Html_mm_tabcloseother" xml:space="preserve">
+    <value>All close except this</value>
+  </data>
+  <data name="Default_Html_mm_tabcloseright" xml:space="preserve">
+    <value>Right side of current page will close</value>
+  </data>
+  <data name="Default_Html_mm_tabupdate" xml:space="preserve">
+    <value>Refrash</value>
+  </data>
+  <data name="Default_Html_tab_Content_1" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="Default_Html_Title" xml:space="preserve">
+    <value>Service center electronic tag query statistics system</value>
+  </data>
+  <data name="Default_JS_defaultTabTitle" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="EquipmentManagement_Control_ExcelName" xml:space="preserve">
+    <value>Equipment information</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip1" xml:space="preserve">
+    <value>Failed to add, for unknown reasons</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip10" xml:space="preserve">
+    <value>Delete the device information successfully</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip11" xml:space="preserve">
+    <value>To delete the information equipment failure</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip12" xml:space="preserve">
+    <value>To delete the information equipment failure,because</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip13" xml:space="preserve">
+    <value>The service name is already in use</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip2" xml:space="preserve">
+    <value>Added successfully</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip3" xml:space="preserve">
+    <value>Failed to add</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip4" xml:space="preserve">
+    <value>Failed to add, because</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip5" xml:space="preserve">
+    <value>Modify failed for an unknown reason</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip6" xml:space="preserve">
+    <value>Successful modification</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip7" xml:space="preserve">
+    <value>Modify failed</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip8" xml:space="preserve">
+    <value>Modify failed ,because</value>
+  </data>
+  <data name="EquipmentManagement_Control_Tip9" xml:space="preserve">
+    <value>To delete the information equipment failure, the cause is unknown</value>
+  </data>
+  <data name="EquipmentManagement_Html_btnAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="EquipmentManagement_Html_btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="EquipmentManagement_Html_btnExcel" xml:space="preserve">
+    <value>Export(Excel)</value>
+  </data>
+  <data name="EquipmentManagement_Html_btnInverseSele" xml:space="preserve">
+    <value>Reverse select</value>
+  </data>
+  <data name="EquipmentManagement_Html_btnPrint" xml:space="preserve">
+    <value>Print(PDF)</value>
+  </data>
+  <data name="EquipmentManagement_Html_btnQuery" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="EquipmentManagement_Html_btnSeleAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="EquipmentManagement_Html_btnUpdate" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="EquipmentManagement_Html_Label1" xml:space="preserve">
+    <value>Service name:</value>
+  </data>
+  <data name="EquipmentManagement_Html_Label2" xml:space="preserve">
+    <value>Service id:</value>
+  </data>
+  <data name="EquipmentManagement_Html_Label3" xml:space="preserve">
+    <value>Service name:</value>
+  </data>
+  <data name="EquipmentManagement_Html_Label4" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="EquipmentManagement_Html_menuButtonReport" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="EquipmentManagement_Html_Title" xml:space="preserve">
+    <value>Equipment information management</value>
+  </data>
+  <data name="EquipmentManagement_JS_DialogAdd" xml:space="preserve">
+    <value>Add device information</value>
+  </data>
+  <data name="EquipmentManagement_JS_DialogUpdate" xml:space="preserve">
+    <value>Modify equipment information</value>
+  </data>
+  <data name="EquipmentManagement_JS_ErrorTip1" xml:space="preserve">
+    <value>Please fill complete information</value>
+  </data>
+  <data name="EquipmentManagement_JS_ErrorTip2" xml:space="preserve">
+    <value>Service id, service name, Department</value>
+  </data>
+  <data name="EquipmentManagement_JS_ErrorTip3" xml:space="preserve">
+    <value>Please select a data for modify</value>
+  </data>
+  <data name="EquipmentManagement_JS_ErrorTip4" xml:space="preserve">
+    <value>You can only choose one line</value>
+  </data>
+  <data name="EquipmentManagement_JS_ErrorTip5" xml:space="preserve">
+    <value>Are you sure need to delete the selected equipment information</value>
+  </data>
+  <data name="EquipmentManagement_JS_ErrorTip6" xml:space="preserve">
+    <value>Please select data for delete</value>
+  </data>
+  <data name="EquipmentManagement_JS_Field1" xml:space="preserve">
+    <value>Service id</value>
+  </data>
+  <data name="EquipmentManagement_JS_Field2" xml:space="preserve">
+    <value>Service name</value>
+  </data>
+  <data name="EquipmentManagement_JS_Field3" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="EquipmentManagement_JS_Menu1" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="EquipmentManagement_JS_Menu2" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="EquipmentManagement_JS_Menu3" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="EquipmentManagement_JS_Menu4" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="EquipmentManagement_JS_Menu5" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="EquipmentManagement_JS_Menu6" xml:space="preserve">
+    <value>Reverse select</value>
+  </data>
+  <data name="EquipmentManagement_JS_Menu7" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="EquipmentManagement_JS_Menu8" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Error_Html_Label1" xml:space="preserve">
+    <value>The cause of the error</value>
+  </data>
+  <data name="Error_Html_Label2" xml:space="preserve">
+    <value>Return to login</value>
+  </data>
+  <data name="Error_Html_Title" xml:space="preserve">
+    <value>Error occurred!!!</value>
+  </data>
+  <data name="GroupManagement_Control_Tip1" xml:space="preserve">
+    <value>Determine failure, the cause is unknown</value>
+  </data>
+  <data name="GroupManagement_Control_Tip10" xml:space="preserve">
+    <value>Add department information failed,because</value>
+  </data>
+  <data name="GroupManagement_Control_Tip11" xml:space="preserve">
+    <value>Add top department information failed for an unknown reason,</value>
+  </data>
+  <data name="GroupManagement_Control_Tip12" xml:space="preserve">
+    <value>Add top department information successfully</value>
+  </data>
+  <data name="GroupManagement_Control_Tip13" xml:space="preserve">
+    <value>Failed to add a top Department of information</value>
+  </data>
+  <data name="GroupManagement_Control_Tip14" xml:space="preserve">
+    <value>Add top department information failed,because</value>
+  </data>
+  <data name="GroupManagement_Control_Tip15" xml:space="preserve">
+    <value>Modify the Department information failed for an unknown reason</value>
+  </data>
+  <data name="GroupManagement_Control_Tip16" xml:space="preserve">
+    <value>Modify the Department information successfull</value>
+  </data>
+  <data name="GroupManagement_Control_Tip17" xml:space="preserve">
+    <value>Modify the Department information failed</value>
+  </data>
+  <data name="GroupManagement_Control_Tip18" xml:space="preserve">
+    <value>Modify the Department information failed,because</value>
+  </data>
+  <data name="GroupManagement_Control_Tip19" xml:space="preserve">
+    <value>Delete department information failed for an unknown reason</value>
+  </data>
+  <data name="GroupManagement_Control_Tip2" xml:space="preserve">
+    <value>The Department name is already in use, please re-enter</value>
+  </data>
+  <data name="GroupManagement_Control_Tip20" xml:space="preserve">
+    <value>Delete department information of success</value>
+  </data>
+  <data name="GroupManagement_Control_Tip21" xml:space="preserve">
+    <value>Delete department information failed</value>
+  </data>
+  <data name="GroupManagement_Control_Tip22" xml:space="preserve">
+    <value>Delete department information failed,because</value>
+  </data>
+  <data name="GroupManagement_Control_Tip3" xml:space="preserve">
+    <value>The name of the Department can use</value>
+  </data>
+  <data name="GroupManagement_Control_Tip4" xml:space="preserve">
+    <value>Delete Department successfully</value>
+  </data>
+  <data name="GroupManagement_Control_Tip5" xml:space="preserve">
+    <value>Delete department information failed,because it has sub department</value>
+  </data>
+  <data name="GroupManagement_Control_Tip6" xml:space="preserve">
+    <value>Delete department information failed,because</value>
+  </data>
+  <data name="GroupManagement_Control_Tip7" xml:space="preserve">
+    <value>Add department information failed for an unknown reason</value>
+  </data>
+  <data name="GroupManagement_Control_Tip8" xml:space="preserve">
+    <value>Add department information successfully</value>
+  </data>
+  <data name="GroupManagement_Control_Tip9" xml:space="preserve">
+    <value>Add department information failed</value>
+  </data>
+  <data name="GroupManagement_Html_btnAdd" xml:space="preserve">
+    <value>Add sub department</value>
+  </data>
+  <data name="GroupManagement_Html_btnAddCompany" xml:space="preserve">
+    <value>Add top department information</value>
+  </data>
+  <data name="GroupManagement_Html_btnCollapseAll" xml:space="preserve">
+    <value>Shrinkage</value>
+  </data>
+  <data name="GroupManagement_Html_btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="GroupManagement_Html_btnExpandAll" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="GroupManagement_Html_btnQuery" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="GroupManagement_Html_btnUpdate" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="GroupManagement_Html_Label1" xml:space="preserve">
+    <value>Please enter the name of top Department</value>
+  </data>
+  <data name="GroupManagement_Html_Label2" xml:space="preserve">
+    <value>Can not be repeated</value>
+  </data>
+  <data name="GroupManagement_Html_Label3" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="GroupManagement_Html_Label4" xml:space="preserve">
+    <value>Sub department</value>
+  </data>
+  <data name="GroupManagement_Html_Label5" xml:space="preserve">
+    <value>Old name of department</value>
+  </data>
+  <data name="GroupManagement_Html_Label6" xml:space="preserve">
+    <value>New name</value>
+  </data>
+  <data name="GroupManagement_Html_Menu1" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="GroupManagement_Html_Menu2" xml:space="preserve">
+    <value>Add top department information</value>
+  </data>
+  <data name="GroupManagement_Html_Menu3" xml:space="preserve">
+    <value>Add sub department</value>
+  </data>
+  <data name="GroupManagement_Html_Menu4" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="GroupManagement_Html_Menu5" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="GroupManagement_Html_Menu6" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="GroupManagement_Html_Menu7" xml:space="preserve">
+    <value>Shrinkage</value>
+  </data>
+  <data name="GroupManagement_Html_Title" xml:space="preserve">
+    <value>Department management</value>
+  </data>
+  <data name="GroupManagement_JS_DialogTitle1" xml:space="preserve">
+    <value>Add top department information</value>
+  </data>
+  <data name="GroupManagement_JS_DialogTitle2" xml:space="preserve">
+    <value>Add sub department</value>
+  </data>
+  <data name="GroupManagement_JS_DialogTitle3" xml:space="preserve">
+    <value>Modify the Department information</value>
+  </data>
+  <data name="GroupManagement_JS_DialogTitle4" xml:space="preserve">
+    <value>Add top department information</value>
+  </data>
+  <data name="GroupManagement_JS_DialogTitle5" xml:space="preserve">
+    <value>Add sub department</value>
+  </data>
+  <data name="GroupManagement_JS_DialogTitle6" xml:space="preserve">
+    <value>Modify the Department information</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip1" xml:space="preserve">
+    <value>Please input the name of top department</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip10" xml:space="preserve">
+    <value>Please input the new name of department</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip11" xml:space="preserve">
+    <value>This department has the sub department, unable to delete, delete its sub departments first</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip12" xml:space="preserve">
+    <value>Are you sure need to delete the department</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip13" xml:space="preserve">
+    <value>Please select department for delete</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip14" xml:space="preserve">
+    <value>Allow only delete empty Department</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip2" xml:space="preserve">
+    <value>Please input the name of sub department</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip3" xml:space="preserve">
+    <value>The new name of the Department is same with the the old name of Department, do not need to modify</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip4" xml:space="preserve">
+    <value>Please input the new name of department</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip5" xml:space="preserve">
+    <value>Please input the name of top department</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip6" xml:space="preserve">
+    <value>Please select the superior department first</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip7" xml:space="preserve">
+    <value>Please input the name of sub department</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip8" xml:space="preserve">
+    <value>Please select department for modify</value>
+  </data>
+  <data name="GroupManagement_JS_ErrorTip9" xml:space="preserve">
+    <value>The new name of the Department is same with the the old name of Department, do not need to modify</value>
+  </data>
+  <data name="Public_Dialog_AskForExit" xml:space="preserve">
+    <value>Are you sure to logout</value>
+  </data>
+  <data name="Public_Dialog_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Public_Dialog_NoDataForExcel" xml:space="preserve">
+    <value>No data, can not be derived</value>
+  </data>
+  <data name="Public_Dialog_NoDataForPrint" xml:space="preserve">
+    <value>No data, no print</value>
+  </data>
+  <data name="Public_Dialog_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Public_Dialog_Title" xml:space="preserve">
+    <value>Prompt information</value>
+  </data>
+  <data name="Public_Print_Title" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Public_Select_DefaultSelect" xml:space="preserve">
+    <value>- please select -</value>
+  </data>
+  <data name="QueryExceptionWayBill_Control_ExcelName" xml:space="preserve">
+    <value>Cargo data infomation</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_Label1" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_Label2" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_Label3" xml:space="preserve">
+    <value>Print(PDF)</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_Label4" xml:space="preserve">
+    <value>Export(Excel)</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_Label5" xml:space="preserve">
+    <value>Operate date</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_Label6" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_Label7" xml:space="preserve">
+    <value>Charging method</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_Label8" xml:space="preserve">
+    <value>Exception type</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_Title" xml:space="preserve">
+    <value>Cargo data query</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field1" xml:space="preserve">
+    <value>Bill NO</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field2" xml:space="preserve">
+    <value>Actual weight</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field3" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field4" xml:space="preserve">
+    <value>Volume weight</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field5" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field6" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field7" xml:space="preserve">
+    <value>Charging method</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field8" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field9" xml:space="preserve">
+    <value>Exception description</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_ToolBar1" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_ToolBar2" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_ToolBar3" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="StatisticByDay_WayBill_Control_Label1" xml:space="preserve">
+    <value>Total number</value>
+  </data>
+  <data name="StatisticByDay_WayBill_Control_Label2" xml:space="preserve">
+    <value>Total weight</value>
+  </data>
+  <data name="StatisticByDay_WayBill_Control_Label3" xml:space="preserve">
+    <value>Total volume</value>
+  </data>
+  <data name="StatisticByDay_WayBill_Html_Label1" xml:space="preserve">
+    <value>Begin date</value>
+  </data>
+  <data name="StatisticByDay_WayBill_Html_Label2" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="StatisticByDay_WayBill_Html_Label3" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="StatisticByDay_WayBill_Html_Label4" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="StatisticByDay_WayBill_Html_Title" xml:space="preserve">
+    <value>Cargo data statistic by days</value>
+  </data>
+  <data name="StatisticByDay_WayBill_JS_Tip1" xml:space="preserve">
+    <value>Goods statistics by days</value>
+  </data>
+  <data name="StatisticByDay_WayBill_JS_Tip2" xml:space="preserve">
+    <value>Count(Piece),volume(m³),weight(kg)</value>
+  </data>
+  <data name="StatisticByHour_WayBill_Control_Label1" xml:space="preserve">
+    <value>Total number</value>
+  </data>
+  <data name="StatisticByHour_WayBill_Control_Label2" xml:space="preserve">
+    <value>Total weight</value>
+  </data>
+  <data name="StatisticByHour_WayBill_Control_Label3" xml:space="preserve">
+    <value>Total volume</value>
+  </data>
+  <data name="StatisticByHour_WayBill_Html_Label1" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="StatisticByHour_WayBill_Html_Label2" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="StatisticByHour_WayBill_Html_Label3" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="StatisticByHour_WayBill_Html_Title" xml:space="preserve">
+    <value>Cargo data statistic by hours</value>
+  </data>
+  <data name="StatisticByHour_WayBill_JS_Label1" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="StatisticByHour_WayBill_JS_Tip1" xml:space="preserve">
+    <value>Goods statistics by hours</value>
+  </data>
+  <data name="StatisticByHour_WayBill_JS_Tip2" xml:space="preserve">
+    <value>Please select the superior department first</value>
+  </data>
+  <data name="StatisticByHour_WayBill_JS_Tip3" xml:space="preserve">
+    <value>Count(Piece),volume(m³),weight(kg)</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_Control_Label1" xml:space="preserve">
+    <value>Total number</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_Control_Label2" xml:space="preserve">
+    <value>Total weight</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_Control_Label3" xml:space="preserve">
+    <value>Total volume</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_Html_Label1" xml:space="preserve">
+    <value>Begin date</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_Html_Label2" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_Html_Label3" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_Html_Label4" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_Html_Title" xml:space="preserve">
+    <value>Cargo data statistic by months</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_JS_Tip1" xml:space="preserve">
+    <value>Goods statistics by months</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_JS_Tip2" xml:space="preserve">
+    <value>Count(Piece),volume(m³),weight(kg)</value>
+  </data>
+  <data name="StatisticFeeByMonth_Control_Tip1" xml:space="preserve">
+    <value>Number of weight-charge</value>
+  </data>
+  <data name="StatisticFeeByMonth_Control_Tip2" xml:space="preserve">
+    <value>Number of volume-charge</value>
+  </data>
+  <data name="StatisticFeeByMonth_Html_Label1" xml:space="preserve">
+    <value>Begin date</value>
+  </data>
+  <data name="StatisticFeeByMonth_Html_Label2" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="StatisticFeeByMonth_Html_Label3" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="StatisticFeeByMonth_Html_Label4" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="StatisticFeeByMonth_Html_Title" xml:space="preserve">
+    <value>Charging information statistics _ unit month</value>
+  </data>
+  <data name="StatisticFeeByMonth_JS_Label1" xml:space="preserve">
+    <value>Statistics information of charges by month</value>
+  </data>
+  <data name="StatisticFeeByMonth_JS_Label2" xml:space="preserve">
+    <value>Piece</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_Control_Tip1" xml:space="preserve">
+    <value>Proportion</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_Control_Tip2" xml:space="preserve">
+    <value>Charges by weight</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_Control_Tip3" xml:space="preserve">
+    <value>Charges by volume</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_Control_Tip4" xml:space="preserve">
+    <value>Piece</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_Html_Label1" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_Html_Label2" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_Html_Label3" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_Html_Title" xml:space="preserve">
+    <value>Charging information statistics _ unit month</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_JS_Label1" xml:space="preserve">
+    <value>Charge of statistics information by month</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip1" xml:space="preserve">
+    <value>Failed to add, for unknown reasons</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip10" xml:space="preserve">
+    <value>Delete user information success</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip11" xml:space="preserve">
+    <value>Delete user information failed</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip12" xml:space="preserve">
+    <value>Delete user information failed,because</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip13" xml:space="preserve">
+    <value>This user number is already in use</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip2" xml:space="preserve">
+    <value>Added successfully</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip3" xml:space="preserve">
+    <value>Failed to add</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip4" xml:space="preserve">
+    <value>Failed to add, because</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip5" xml:space="preserve">
+    <value>Modify failed for an unknown reason</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip6" xml:space="preserve">
+    <value>Successful modification</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip7" xml:space="preserve">
+    <value>Modify failed</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip8" xml:space="preserve">
+    <value>Modify failed ,because</value>
+  </data>
+  <data name="UserManagement_Control_ErrorTip9" xml:space="preserve">
+    <value>Delete user information failed for an unknown reason</value>
+  </data>
+  <data name="UserManagement_Control_ExcelName" xml:space="preserve">
+    <value>The system user information</value>
+  </data>
+  <data name="UserManagement_Html_Label1" xml:space="preserve">
+    <value>The user name</value>
+  </data>
+  <data name="UserManagement_Html_Label2" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="UserManagement_Html_Label3" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="UserManagement_Html_Label4" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="UserManagement_Html_Title" xml:space="preserve">
+    <value>User information management</value>
+  </data>
+  <data name="UserManagement_JS_DialogAddTitle" xml:space="preserve">
+    <value>Add the system user information</value>
+  </data>
+  <data name="UserManagement_JS_DialogUpdateTitle" xml:space="preserve">
+    <value>Modify the system user information</value>
+  </data>
+  <data name="UserManagement_JS_ErrorTip1" xml:space="preserve">
+    <value>Please fill complete information</value>
+  </data>
+  <data name="UserManagement_JS_ErrorTip2" xml:space="preserve">
+    <value>The user name, password, the password confirmation, Department</value>
+  </data>
+  <data name="UserManagement_JS_ErrorTip3" xml:space="preserve">
+    <value>The password and confirm password do not match</value>
+  </data>
+  <data name="UserManagement_JS_ErrorTip4" xml:space="preserve">
+    <value>Please select a data for modify</value>
+  </data>
+  <data name="UserManagement_JS_ErrorTip5" xml:space="preserve">
+    <value>You can only choose one line</value>
+  </data>
+  <data name="UserManagement_JS_ErrorTip6" xml:space="preserve">
+    <value>Are you sure need to delete the selected system user information</value>
+  </data>
+  <data name="UserManagement_JS_ErrorTip7" xml:space="preserve">
+    <value>Please select data for delete</value>
+  </data>
+  <data name="UserManagement_JS_Field1" xml:space="preserve">
+    <value>The user name</value>
+  </data>
+  <data name="UserManagement_JS_Field2" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="UserManagement_JS_Toolbar1" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="UserManagement_JS_Toolbar2" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="UserManagement_JS_Toolbar3" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="UserManagement_JS_Toolbar4" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="UserManagement_JS_Toolbar5" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="UserManagement_JS_Toolbar6" xml:space="preserve">
+    <value>Reverse select</value>
+  </data>
+  <data name="UserManagement_JS_Toolbar7" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="UserManagement_JS_Toolbar8" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Default_JS_Afternoon" xml:space="preserve">
+    <value>Afternoon</value>
+  </data>
+  <data name="Default_JS_Evening" xml:space="preserve">
+    <value>Evening</value>
+  </data>
+  <data name="Default_JS_Friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="Default_JS_Midnight" xml:space="preserve">
+    <value>Midnight</value>
+  </data>
+  <data name="Default_JS_Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="Default_JS_Morning" xml:space="preserve">
+    <value>Morning</value>
+  </data>
+  <data name="Default_JS_Night" xml:space="preserve">
+    <value>Night</value>
+  </data>
+  <data name="Default_JS_Noon" xml:space="preserve">
+    <value>Noon</value>
+  </data>
+  <data name="Default_JS_Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="Default_JS_Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="Default_JS_Thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="Default_JS_Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="Default_JS_Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="Default_JS_Day" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Default_JS_Month" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="Default_JS_Year" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="QueryExceptionWayBill_Html_EmpNO" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field10" xml:space="preserve">
+    <value>Employee NO</value>
+  </data>
+  <data name="QueryExceptionWayBill_JS_Field11" xml:space="preserve">
+    <value>Employee name</value>
+  </data>
+  <data name="StatisticByDay_WayBill_Html_ddlEmpNO" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="StatisticByHour_WayBill_Html_ddlEmpNO" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="StatisticByMonth_WayBill_Html_EmpNO" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="StatisticFeeByMonth_Html_EmpNO" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="StatisticFeeByMonth_Pie_Html_EmpNO" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip1" xml:space="preserve">
+    <value>Failed to add, for reasons unknown</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip10" xml:space="preserve">
+    <value>Successfully deleted</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip11" xml:space="preserve">
+    <value>Failed to delete</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip12" xml:space="preserve">
+    <value>Delete failed, reason</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip13" xml:space="preserve">
+    <value>The employee number is already in use</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip2" xml:space="preserve">
+    <value>Added successfully</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip3" xml:space="preserve">
+    <value>Failed to add</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip4" xml:space="preserve">
+    <value>Failed to add, reason</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip5" xml:space="preserve">
+    <value>Update failed for an unknown reason</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip6" xml:space="preserve">
+    <value>Successful modification</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip7" xml:space="preserve">
+    <value>Modify failed</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip8" xml:space="preserve">
+    <value>Update failed, reason</value>
+  </data>
+  <data name="EmployeeManagement_Control_ErrorTip9" xml:space="preserve">
+    <value>Delete failed, for reasons unknown</value>
+  </data>
+  <data name="EmployeeManagement_Control_ExcelName" xml:space="preserve">
+    <value>Employee information</value>
+  </data>
+  <data name="EmployeeManagement_Html_EmpDept" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="EmployeeManagement_Html_EmpName" xml:space="preserve">
+    <value>Employee name</value>
+  </data>
+  <data name="EmployeeManagement_Html_EmpNO" xml:space="preserve">
+    <value>Employee number</value>
+  </data>
+  <data name="EmployeeManagement_Html_Title" xml:space="preserve">
+    <value>Employee information management</value>
+  </data>
+  <data name="EmployeeManagement_JS_AddEmployee" xml:space="preserve">
+    <value>Add employee information</value>
+  </data>
+  <data name="EmployeeManagement_JS_btnAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="EmployeeManagement_JS_btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="EmployeeManagement_JS_btnExcel" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="EmployeeManagement_JS_btnInverseSele" xml:space="preserve">
+    <value>Reverse selection</value>
+  </data>
+  <data name="EmployeeManagement_JS_btnPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="EmployeeManagement_JS_btnQuery" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="EmployeeManagement_JS_btnSeleAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="EmployeeManagement_JS_btnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="EmployeeManagement_JS_DeleteAsk" xml:space="preserve">
+    <value>Are you sure need to delete the selected staff information</value>
+  </data>
+  <data name="EmployeeManagement_JS_ErrorTip1" xml:space="preserve">
+    <value>Please fill in complete information</value>
+  </data>
+  <data name="EmployeeManagement_JS_ErrorTip2" xml:space="preserve">
+    <value>Employee number, employee name, Department</value>
+  </data>
+  <data name="EmployeeManagement_JS_ErrorTip3" xml:space="preserve">
+    <value>Please select one  employee to modify</value>
+  </data>
+  <data name="EmployeeManagement_JS_ErrorTip4" xml:space="preserve">
+    <value>Only one select</value>
+  </data>
+  <data name="EmployeeManagement_JS_ErrorTip5" xml:space="preserve">
+    <value>Please select employees to delete</value>
+  </data>
+  <data name="EmployeeManagement_JS_Field1" xml:space="preserve">
+    <value>Employee number</value>
+  </data>
+  <data name="EmployeeManagement_JS_Field2" xml:space="preserve">
+    <value>Employee name</value>
+  </data>
+  <data name="EmployeeManagement_JS_Field3" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="EmployeeManagement_JS_UpdateEmployee" xml:space="preserve">
+    <value>Modify employee information</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip1" xml:space="preserve">
+    <value>Failed to add, for reasons unknown</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip10" xml:space="preserve">
+    <value>Delete the device successfully</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip11" xml:space="preserve">
+    <value>Delete equipment failure</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip12" xml:space="preserve">
+    <value>Delete equipment failure, reason</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip13" xml:space="preserve">
+    <value>The device name is already in use</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip2" xml:space="preserve">
+    <value>Add  successfully</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip3" xml:space="preserve">
+    <value>Failed to add</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip4" xml:space="preserve">
+    <value>Add a device failure, reason</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip5" xml:space="preserve">
+    <value>Failed to failure, for reasons unknown</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip6" xml:space="preserve">
+    <value>Successful modification</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip7" xml:space="preserve">
+    <value>Failure to modify</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip8" xml:space="preserve">
+    <value>Changes failed, reason</value>
+  </data>
+  <data name="DeviceManagement_Control_ErrorTip9" xml:space="preserve">
+    <value>Remove the equipment failure, for reasons unknown</value>
+  </data>
+  <data name="DeviceManagement_Control_ExcelName" xml:space="preserve">
+    <value>Equipment information</value>
+  </data>
+  <data name="DeviceManagement_Html_btnAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="DeviceManagement_Html_btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeviceManagement_Html_btnExcel" xml:space="preserve">
+    <value>Export(EXCEL)</value>
+  </data>
+  <data name="DeviceManagement_Html_btnInverseSele" xml:space="preserve">
+    <value>Reverse selection</value>
+  </data>
+  <data name="DeviceManagement_Html_btnPrint" xml:space="preserve">
+    <value>Print(PDF)</value>
+  </data>
+  <data name="DeviceManagement_Html_btnQuery" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="DeviceManagement_Html_btnSeleAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="DeviceManagement_Html_btnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="DeviceManagement_Html_menuButtonReport" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="DeviceManagement_Html_Title" xml:space="preserve">
+    <value>Equipment information management</value>
+  </data>
+  <data name="DeviceManagement_Html_txtNVRDHLIP" xml:space="preserve">
+    <value>IP (intranet)</value>
+  </data>
+  <data name="DeviceManagement_Html_txtNVRIP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="DeviceManagement_Html_txtNVRName" xml:space="preserve">
+    <value>Device name</value>
+  </data>
+  <data name="DeviceManagement_Html_txtNVRPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="DeviceManagement_Html_txtUserName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="DeviceManagement_Html_txtUserPwd" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="DeviceManagement_JS_AddDevice" xml:space="preserve">
+    <value>Add a device information</value>
+  </data>
+  <data name="DeviceManagement_JS_ErrorTip1" xml:space="preserve">
+    <value>Please fill in complete information</value>
+  </data>
+  <data name="DeviceManagement_JS_ErrorTip2" xml:space="preserve">
+    <value>Equipment name, IP, IP (intranet), port, username, password</value>
+  </data>
+  <data name="DeviceManagement_JS_ErrorTip3" xml:space="preserve">
+    <value>Please select data</value>
+  </data>
+  <data name="DeviceManagement_JS_ErrorTip4" xml:space="preserve">
+    <value>You can only choose one line</value>
+  </data>
+  <data name="DeviceManagement_JS_ErrorTip5" xml:space="preserve">
+    <value>Are you sure need to delete the selected equipment information</value>
+  </data>
+  <data name="DeviceManagement_JS_ErrorTip6" xml:space="preserve">
+    <value>Please select equipment information to remove</value>
+  </data>
+  <data name="DeviceManagement_JS_Field1" xml:space="preserve">
+    <value>Device name</value>
+  </data>
+  <data name="DeviceManagement_JS_Field2" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="DeviceManagement_JS_Field3" xml:space="preserve">
+    <value>IP (intranet)</value>
+  </data>
+  <data name="DeviceManagement_JS_Field4" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="DeviceManagement_JS_Field5" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="DeviceManagement_JS_Field6" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="DeviceManagement_JS_UpdateDevice" xml:space="preserve">
+    <value>Change equipment information</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title10" xml:space="preserve">
+    <value>Map view</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title11" xml:space="preserve">
+    <value>Equipment management</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title12" xml:space="preserve">
+    <value>Image query</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title13" xml:space="preserve">
+    <value>Map management</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title6" xml:space="preserve">
+    <value>Employee information management</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title7" xml:space="preserve">
+    <value>NVR equipment management</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title8" xml:space="preserve">
+    <value>Image query</value>
+  </data>
+  <data name="Default_Html_LeftNavigation_Title9" xml:space="preserve">
+    <value>Map design</value>
+  </data>
+  <data name="MapDesign_Control_ErrorTip1" xml:space="preserve">
+    <value>To add a map failed for an unknown reason</value>
+  </data>
+  <data name="MapDesign_Control_ErrorTip2" xml:space="preserve">
+    <value>To add a map successfully</value>
+  </data>
+  <data name="MapDesign_Control_ErrorTip3" xml:space="preserve">
+    <value>To add a map failed, reason</value>
+  </data>
+  <data name="MapDesign_Control_ErrorTip4" xml:space="preserve">
+    <value>Modify the map failed for an unknown reason</value>
+  </data>
+  <data name="MapDesign_Control_ErrorTip5" xml:space="preserve">
+    <value>Modify the map successfully</value>
+  </data>
+  <data name="MapDesign_Control_ErrorTip6" xml:space="preserve">
+    <value>Modify the map failed, reason</value>
+  </data>
+  <data name="MapDesign_Control_ErrorTip7" xml:space="preserve">
+    <value>Delete map failed for an unknown reason</value>
+  </data>
+  <data name="MapDesign_Control_ErrorTip8" xml:space="preserve">
+    <value>Delete map successfully</value>
+  </data>
+  <data name="MapDesign_Control_ErrorTip9" xml:space="preserve">
+    <value>Delete map failed, reason</value>
+  </data>
+  <data name="MapDesign_Html_Tip1" xml:space="preserve">
+    <value>Map information</value>
+  </data>
+  <data name="MapDesign_Html_Tip10" xml:space="preserve">
+    <value>Map file</value>
+  </data>
+  <data name="MapDesign_Html_Tip11" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="MapDesign_Html_Tip12" xml:space="preserve">
+    <value>Map name</value>
+  </data>
+  <data name="MapDesign_Html_Tip13" xml:space="preserve">
+    <value>Old map</value>
+  </data>
+  <data name="MapDesign_Html_Tip14" xml:space="preserve">
+    <value>New map</value>
+  </data>
+  <data name="MapDesign_Html_Tip15" xml:space="preserve">
+    <value>Note: do not choose a new map file will retain the old map file</value>
+  </data>
+  <data name="MapDesign_Html_Tip16" xml:space="preserve">
+    <value>Clear map file</value>
+  </data>
+  <data name="MapDesign_Html_Tip2" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="MapDesign_Html_Tip3" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="MapDesign_Html_Tip4" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="MapDesign_Html_Tip5" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="MapDesign_Html_Tip6" xml:space="preserve">
+    <value>Detail infomation</value>
+  </data>
+  <data name="MapDesign_Html_Tip7" xml:space="preserve">
+    <value>Double click the map blank area to add equipment, right key equipment point can edit or delete, drag point manual positioning equipment</value>
+  </data>
+  <data name="MapDesign_Html_Tip8" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="MapDesign_Html_Tip9" xml:space="preserve">
+    <value>Map name</value>
+  </data>
+  <data name="MapDesign_Html_Title" xml:space="preserve">
+    <value>Electronic map design</value>
+  </data>
+  <data name="MapDesign_JS_AddMap" xml:space="preserve">
+    <value>Add map</value>
+  </data>
+  <data name="MapDesign_JS_ErrorTip1" xml:space="preserve">
+    <value>First select a map area</value>
+  </data>
+  <data name="MapDesign_JS_ErrorTip2" xml:space="preserve">
+    <value>Please fill in the complete information (names of maps, map file)</value>
+  </data>
+  <data name="MapDesign_JS_ErrorTip3" xml:space="preserve">
+    <value>Wait</value>
+  </data>
+  <data name="MapDesign_JS_ErrorTip4" xml:space="preserve">
+    <value>Processing……</value>
+  </data>
+  <data name="MapDesign_JS_ErrorTip5" xml:space="preserve">
+    <value>First select a map area</value>
+  </data>
+  <data name="MapDesign_JS_ErrorTip6" xml:space="preserve">
+    <value>First select a map</value>
+  </data>
+  <data name="MapDesign_JS_ErrorTip7" xml:space="preserve">
+    <value>Please fill in the complete information (names of maps, map file)</value>
+  </data>
+  <data name="MapDesign_JS_ErrorTip8" xml:space="preserve">
+    <value>First select a map area</value>
+  </data>
+  <data name="MapDesign_JS_ErrorTip9" xml:space="preserve">
+    <value>First select a map</value>
+  </data>
+  <data name="MapDesign_JS_Field1" xml:space="preserve">
+    <value>Map name</value>
+  </data>
+  <data name="MapDesign_JS_Field2" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="MapDesign_JS_UpdateMap" xml:space="preserve">
+    <value>Update map</value>
+  </data>
+  <data name="MapPortView_Html_Menu1" xml:space="preserve">
+    <value>Equipment point property</value>
+  </data>
+  <data name="MapPortView_Html_Title" xml:space="preserve">
+    <value>Electronic map view</value>
+  </data>
+  <data name="MapPortView_JS_Menu1" xml:space="preserve">
+    <value>Statistic  by hour</value>
+  </data>
+  <data name="MapPortView_JS_Menu2" xml:space="preserve">
+    <value>Statistic  by day</value>
+  </data>
+  <data name="MapPortView_JS_Menu3" xml:space="preserve">
+    <value>Statistic  by month</value>
+  </data>
+  <data name="MapReal_Html_Label1" xml:space="preserve">
+    <value>Select Map</value>
+  </data>
+  <data name="MapReal_Html_Title" xml:space="preserve">
+    <value>Electronic map view</value>
+  </data>
+  <data name="MapReal_JS_Field1" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="MapReal_JS_Field2" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="MapView_Control_ErrorTip1" xml:space="preserve">
+    <value>Modify the coordinate of map equipment point failure, the cause is unknown</value>
+  </data>
+  <data name="MapView_Control_ErrorTip10" xml:space="preserve">
+    <value>Get equipment point of  map failure, because</value>
+  </data>
+  <data name="MapView_Control_ErrorTip11" xml:space="preserve">
+    <value>To add a equipment point  of map  failure, the cause is unknown</value>
+  </data>
+  <data name="MapView_Control_ErrorTip12" xml:space="preserve">
+    <value>To add a equipment   point  of map  successfully</value>
+  </data>
+  <data name="MapView_Control_ErrorTip13" xml:space="preserve">
+    <value>To add a equipment   point  of map  failure, because</value>
+  </data>
+  <data name="MapView_Control_ErrorTip14" xml:space="preserve">
+    <value>To update a equipment point  of map  failure, the cause is unknown</value>
+  </data>
+  <data name="MapView_Control_ErrorTip15" xml:space="preserve">
+    <value>To update a equipment   point  of map  successfully</value>
+  </data>
+  <data name="MapView_Control_ErrorTip16" xml:space="preserve">
+    <value>To update a equipment   point  of map  failure, because</value>
+  </data>
+  <data name="MapView_Control_ErrorTip17" xml:space="preserve">
+    <value>To delete a equipment point  of map  failure, the cause is unknown</value>
+  </data>
+  <data name="MapView_Control_ErrorTip18" xml:space="preserve">
+    <value>To delete a equipment   point  of map  successfully</value>
+  </data>
+  <data name="MapView_Control_ErrorTip19" xml:space="preserve">
+    <value>To delete a equipment   point  of map  failure, because</value>
+  </data>
+  <data name="MapView_Control_ErrorTip2" xml:space="preserve">
+    <value>Modify the coordinate of map equipment point successfully</value>
+  </data>
+  <data name="MapView_Control_ErrorTip3" xml:space="preserve">
+    <value>Modify the coordinate of map equipment point failure,because</value>
+  </data>
+  <data name="MapView_Control_ErrorTip4" xml:space="preserve">
+    <value>Modify the size of map equipment  point failure,for  unknown reasons</value>
+  </data>
+  <data name="MapView_Control_ErrorTip5" xml:space="preserve">
+    <value>Modify the size of map equipment  point successfully</value>
+  </data>
+  <data name="MapView_Control_ErrorTip6" xml:space="preserve">
+    <value>Modify the size of map equipment  point failure,because </value>
+  </data>
+  <data name="MapView_Control_ErrorTip7" xml:space="preserve">
+    <value>Failed for an unknown reason</value>
+  </data>
+  <data name="MapView_Control_ErrorTip8" xml:space="preserve">
+    <value>Get equipment point of  map failure, the cause is unknown</value>
+  </data>
+  <data name="MapView_Control_ErrorTip9" xml:space="preserve">
+    <value>Get equipment point of  map successfully</value>
+  </data>
+  <data name="MapView_Html_Menu1" xml:space="preserve">
+    <value>Add equipment point</value>
+  </data>
+  <data name="MapView_Html_Menu2" xml:space="preserve">
+    <value>Update equipment point</value>
+  </data>
+  <data name="MapView_Html_Menu3" xml:space="preserve">
+    <value>Delete equipment point</value>
+  </data>
+  <data name="MapView_Html_Menu4" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="MapView_Html_Tip1" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="MapView_Html_Tip2" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="MapView_Html_Tip3" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="MapView_Html_Tip4" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="MapView_Html_Tip5" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="MapView_Html_Tip6" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="MapView_Html_Tip7" xml:space="preserve">
+    <value>Customize name</value>
+  </data>
+  <data name="MapView_Html_Tip8" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="MapView_Html_Tip9" xml:space="preserve">
+    <value>Note: can only choose to map the region of equipment, and the equipment can not be used repeatedly</value>
+  </data>
+  <data name="MapView_Html_Title" xml:space="preserve">
+    <value>Electronic map view</value>
+  </data>
+  <data name="MapView_JS_AddMapPot" xml:space="preserve">
+    <value>Add equipment point</value>
+  </data>
+  <data name="MapView_JS_ErrorTip1" xml:space="preserve">
+    <value>Please fill in the complete information (X,Y, width, height, custom map equipment point name, equipment)</value>
+  </data>
+  <data name="MapView_JS_ErrorTip2" xml:space="preserve">
+    <value>Please select one equipment point to modify</value>
+  </data>
+  <data name="MapView_JS_ErrorTip3" xml:space="preserve">
+    <value>Please select one equipment point to delete</value>
+  </data>
+  <data name="MapView_JS_Field1" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="MapView_JS_Field2" xml:space="preserve">
+    <value>Equipment name</value>
+  </data>
+  <data name="MapView_JS_UpdateMapPot" xml:space="preserve">
+    <value>Changes equipment point</value>
+  </data>
+  <data name="PicFileView_New_Aspx_cs_InvalidParam" xml:space="preserve">
+    <value>Parameter error</value>
+  </data>
+  <data name="QueryPic_Control_ExcelName" xml:space="preserve">
+    <value>Image query information</value>
+  </data>
+  <data name="QueryPic_Html_btnExcel" xml:space="preserve">
+    <value>Export(EXCEL)</value>
+  </data>
+  <data name="QueryPic_Html_btnPrint" xml:space="preserve">
+    <value>Print (PDF)</value>
+  </data>
+  <data name="QueryPic_Html_btnQuery" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="QueryPic_Html_menuButtonReport" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="QueryPic_Html_Title" xml:space="preserve">
+    <value>Image query</value>
+  </data>
+  <data name="QueryPic_Html_txtLabel" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="QueryPic_JS_Field1" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="QueryPic_JS_Field2" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="QueryPic_JS_Field2_1" xml:space="preserve">
+    <value>See the image file</value>
+  </data>
+  <data name="QueryPic_JS_ViewPic" xml:space="preserve">
+    <value>See the image file</value>
+  </data>
+  <data name="ViewAllPic_New_Aspx_cs_InvalidParam" xml:space="preserve">
+    <value>Parameter error</value>
+  </data>
+  <data name="Login_Control_ErrorTip1" xml:space="preserve">
+    <value>Login failed for an unknown reason</value>
+  </data>
+  <data name="Login_Control_ErrorTip2" xml:space="preserve">
+    <value>Login successfully</value>
+  </data>
+  <data name="Login_Control_ErrorTip3" xml:space="preserve">
+    <value>Logon failed, the user name and password does not match</value>
+  </data>
+  <data name="Login_Control_ErrorTip4" xml:space="preserve">
+    <value>Logon failed, reason</value>
+  </data>
+  <data name="Login_Control_ErrorTip5" xml:space="preserve">
+    <value>Logout failed, for reasons unknown</value>
+  </data>
+  <data name="Login_Control_ErrorTip6" xml:space="preserve">
+    <value>Logout successfully</value>
+  </data>
+  <data name="Login_Control_ErrorTip7" xml:space="preserve">
+    <value>Logout failed, reason</value>
+  </data>
+  <data name="Login_Html_Label1" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Login_Html_Label2" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Login_Html_Label3" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Login_Html_Label4" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Login_Html_Label5" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Login_Html_Label6" xml:space="preserve">
+    <value>Management information system</value>
+  </data>
+  <data name="Login_Html_Title" xml:space="preserve">
+    <value>User login</value>
+  </data>
+  <data name="Login_JS_ErrorTip1" xml:space="preserve">
+    <value>Please complete the information &lt;br/&gt; (username, password)</value>
+  </data>
+</root>
